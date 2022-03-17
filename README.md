@@ -1,8 +1,13 @@
-# AWS-SERVICE-UTILS
+# aws-service-utils
 
-## What is this?
+## What is aws-service-utils?
 
 This package is a ever growing collection of aws functionalities written in typescript available to you in form of utils
+
+## Contribution
+
+Currently this package only supports secretsmanager service. Expect others in future versions
+
 
 ## Installation
 
