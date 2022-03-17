@@ -21,10 +21,10 @@ $ npm i aws-service-utils
 const { secretsManager } = require('aws-service-utils').services;
 
 async function setConfig() {
-    const secret = (await secretsManager.getSecret({
+    const secret = await secretsManager.getSecret({
         secretName: 'secretName',
         region: 'ap-south-1'
-    }));
+    });
     console.log(secret);
 }
 
